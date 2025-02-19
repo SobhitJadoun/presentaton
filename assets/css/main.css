@@ -9,9 +9,7 @@
     --grey: #cbcdcd;
 }
 
-.dropdown{
-    display:none;
-}
+
 .container {
     max-width: 1250px;
    padding: 0 20px;
@@ -803,4 +801,8 @@ section.review .cont-wrap .owl-nav button i{
     gap: 8px;
     cursor: pointer;
     float: right;
+}
+
+.dropdown {
+    display: none;
 }
