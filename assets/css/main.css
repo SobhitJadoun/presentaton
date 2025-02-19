@@ -221,6 +221,9 @@ header .sign-up {
 header .navbar-expand-lg .navbar-collapse{
     justify-content: center ;
 }
+.btn-gp{
+    position: relative;
+}
 header ul.navbar-nav li a {
     vertical-align: top;
     color: #222;
@@ -362,7 +365,7 @@ section.brand .cont-wrap{
 }
 .key-feature .block-layout {
     display: flex;
-    column-gap: 40px;
+    column-gap: 38px;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 80px;
@@ -397,6 +400,17 @@ section.brand .cont-wrap{
 .home-feature-item-6 p {
 color: var(--para-color-1);
 margin-top: 14px;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+.home-feature-item-6 h3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: var(--text-color-1);
 }
 .home-feature-icon-wrapper._2 {
     background-color: #fe7f514d;
@@ -442,6 +456,13 @@ section.template .col-right h2{
     margin-bottom: 24px;
     color: var(--text-color-1);
     width: 475px;
+}
+.mob-btn{
+    display: none !important;
+}
+.footer-section .link-group a:hover{
+    color: var(--primar-color);
+    transition: 0.5s ease all;
 }
 section.template .col-right p{
     color: var(--para-color-1);
@@ -588,7 +609,7 @@ section.review .cont-wrap .owl-nav button i{
 }
 .image-66 {
     width: 100%;
-    max-width: 185%;
+    max-width: 185px;
     position: absolute;
 }
 .footer-section{
@@ -598,6 +619,9 @@ section.review .cont-wrap .owl-nav button i{
     color: var(--para-color-1);
     text-transform: uppercase;
   
+}
+.home-feature-item-6.ext img {
+    width: 60px;
 }
 .footer-section .link-group a{
     color: #080829;

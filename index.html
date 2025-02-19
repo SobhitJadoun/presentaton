@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 
 
 
@@ -29,21 +30,27 @@
                 ">
 
           <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt=""></a>
+          <div class="toggler-div">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+        </div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
 
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Why Us</a>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Why Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
 
             </ul>
+            <div class="sign-up mob-btn">
+              <a href="" class="secondary-btn ">Login</a>
+              <a href="" class="primary-btn">Try for Free</a>
+            </div>
           </div>
 
           <div class="sign-up">
@@ -61,23 +68,23 @@
       <div class="cont-wrap">
         <div class="content">
           <div class="left">
-            <h1 class="home-hero-heading">The World's Best<strong class="bold-text-30"> <br></strong><span
-                class="text-span-10">AI Presentation Maker</span></h1>
+            <h1 class="home-hero-heading">The World's Best<strong class="bold-text-30"> <br></strong><span class="text-span-10">AI Presentation Maker</span></h1>
             <div class="body-small-black">ChatGPT for Presentations - Generate stunning slides in minutes</div>
-            <a href="" class=" btn primary-btn">Try for Free</a>
-            <img src="./assets/images/no-credit.png" class="no-credit-img" alt="">
+            <div class="btn-gp">
+            <a href="" class="btn primary-btn">Try for Free</a>
+            <img src="./assets/images/no-credit.png" class="no-credit-img" alt=""></div>
           </div>
           <div class="right" style="background-image: url(./assets/images/hero-presentation.jpg);">
-            <video autoplay loop>
+            <video autoplay loop muted>
               <source src="./assets/images/presentation-vide.mp4" type="video/mp4">
-
-
+          
             </video>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
 
   <!-- =================== brand=============== -->
   <section class="brand typography">
@@ -193,7 +200,7 @@
 
             <p>Edit and present from anywhere, with seamless access across all your devices.</p>
           </div>
-          <div id="w-node-_37f760ad-b306-6510-96a2-4c2d6c4ac123-422cf00c" class="home-feature-item-6">
+          <div  class="home-feature-item-6 ext">
             <div class="home-feature-icon-wrapper"><img src="./assets/images/Icon.svg" loading="eager" alt="icon"
                 class="home-feature-icon"></div>
 
@@ -216,7 +223,7 @@
     <div class="container">
       <div class="cont-wrap">
         <div class="row ">
-          <div class="col-md-6 p-0">
+          <div class="col-md-6 ">
             <div class="col-right">
               <div class="content">
                 <h2>Creative power that goes way beyond <span class="txt-span-600">templates</span></h3>
@@ -233,13 +240,13 @@
 
             </div>
           </div>
-          <div class="col-md-6 p-0">
+          <div class="col-md-6 ">
             <div class="col-left">
               <img src="./assets/images/brand_consistent.png" alt="">
 
             </div>
           </div>
-          <div class="col-md-6 p-0">
+          <div class="col-md-6 ">
             <div class="col-right">
               <div class="content">
                 <h2>Brand <span class="txt-span-600">consistent</span></h3>
@@ -369,7 +376,7 @@
     <div class="container">
       <div class="footer-wrap">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-6 col-md-3">
             <div class="col-wrap">
               <h4>Product</h4>
               <div class="link-group">
@@ -381,7 +388,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-6 col-md-3">
             <div class="col-wrap">
               <h4>Company</h4>
               <div class="link-group">
@@ -392,7 +399,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-6 col-md-3">
             <div class="col-wrap">
               <h4>TOOLS</h4>
               <div class="link-group">
@@ -404,7 +411,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-6 col-md-3">
             <div class="col-wrap">
               <h4>COMPARE</h4>
               <div class="link-group">
@@ -414,7 +421,7 @@
 
               </div>
             </div>
-            <div class="col-wrap mt-4">
+            <div class="col-12 col-wrap mt-4">
               <h4>Product</h4>
               <div class="link-group">
                 <a href="#">AI Presentation Maker</a>
