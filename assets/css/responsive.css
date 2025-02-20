@@ -11,6 +11,17 @@
         width: 50%;
         box-sizing: border-box;
     }
+    .login-container .logo {
+        width: 250px;
+        margin-bottom: 40px;
+    }
+    .login-title {
+        font-size: 22px !important;
+    }
+    .login-container .ft-block-wrap {
+        margin: 50px auto 0;
+        padding: 0 15px;
+    }
 
     .typography h1 {
         font-size: 40px;
@@ -64,10 +75,16 @@
 }
 
 @media (max-width:991px) {
+    .login-title {
+        font-size: 20px !important;
+    }
 
     section.hero .content .left,
     section.hero .content .right {
         width: 100%;
+    }
+    .login-container .login-title {
+        font-size: 20px !important;
     }
 
     section.hero .content .left {
@@ -219,12 +236,20 @@
 }
 
 @media (max-width:767px){
+    .login-container {
+        flex-direction: column;
+    }
     section.template .row .col-md-6 {
         width: 100%;
         margin-bottom: 15px;
     }
     .typography h1 {
         font-size: 30px;
+    }
+    .login-box { width: 100%;
+    }
+    .login-container .ft-block {
+        width: 100%;
     }
     .body-small-black {
         font-size: 16px;
@@ -302,6 +327,32 @@
 }
 
 @media (max-width:575px){
+    .login-box {
+        padding: 20px;
+    }
+    .login-container .ft-block-wrap {
+        margin: 30px auto 0;
+        padding: 0 15px;
+    }
+    .login-container .btn-social {
+        font-size: 14px;
+        min-height: 40px;
+    }
+    .login-container .ft-block-wrap h3 {
+        font-size: 18px;
+    }
+    .login-container .btn-social .icon {
+        padding: 6px;
+    }
+    p.login-left-bottom {
+        font-size: 14px;
+        padding-bottom: 20px;
+        margin-top: 10px !important;
+    }
+    .login-container .logo {
+        width: 180px;
+        margin-bottom: 20px;
+    }
     h1.home-hero-heading {
         text-align: center;
     }

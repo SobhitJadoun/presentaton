@@ -730,6 +730,7 @@ section.review .cont-wrap .owl-nav button i{
     display: flex;
     height: 100%;
     gap: 0;
+    min-height: 100vh;
 }
 .login-box {
     background: var(--white);
@@ -737,11 +738,12 @@ section.review .cont-wrap .owl-nav button i{
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    max-height: 100vh;
+    
     min-height: 100vh;
 }
 .login-container .ft-block {
     width: 50%;
+    background-color: rgb(237 245 255 );
 }
 .login-container .logo {
     width: 250px;
@@ -753,11 +755,21 @@ section.review .cont-wrap .owl-nav button i{
     -webkit-background-clip: text !important;
     background-clip: text !important;
     color: transparent !important;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
 }
-.login-title {
+.login-container .login-title {
     font-size: 28px !important;
     font-weight: bold;
     margin: 10px 0 20px;
+}
+.login-container  .form-check {
+    margin-top: 15px;
+}
+.login-container .sign-up-para {
+    font-size: 13px;
+    line-height: 1.53;
 }
 .login-wrape {
     max-width: 420px;
@@ -785,11 +797,13 @@ section.review .cont-wrap .owl-nav button i{
 .login-container .checkbox-label {
     font-size: 14px;
 }
-.feature-list i {
+.login-container .feature-list i {
     color: green;
 }
-.feature-list p {
+.login-container .feature-list p {
     margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
 }
 .login-container.language-selector {
     border: 1px solid #ddd;
@@ -802,7 +816,31 @@ section.review .cont-wrap .owl-nav button i{
     cursor: pointer;
     float: right;
 }
-
-.dropdown {
-    display: none;
+.login-container .ft-block-wrap {
+    min-height: 426px;
+    margin-top: 128px;
+    max-width: 520px;
+    margin: 128px auto 0;
+}
+.login-container .ft-block-wrap h3 span {
+    --bs-text-opacity: 1;
+    background: linear-gradient(276deg, rgb(58, 142, 230) 0%, rgb(192, 58, 231) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+.login-container .feature-list .list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.login-container .feature-list .list i {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.login-container .ft-block-wrap h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
 }
